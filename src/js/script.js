@@ -38,27 +38,30 @@ const getApiWithCb = async (endpoint, cb) => {
 };
 
 getApiWithCb("data", (data) => {
-  data.map((item) => {
-    console.log(item);
-    cardsContainer.innerHTML += `
-          <div class="cards__container--card">
-        <div class="cards__container--card__img">
-          <img
-            src="${item.imgSrc}"
-            alt=""
-          />
+  bindCardsData(data);
+});
 
+getApiWithCb("data2", (data2) => {
+  bindCardsData(data2);
+});
+
+function bindCardsData(data) {
+  data.forEach((item) => {
+    const card = document.createElement("div");
+    card.classList.add("cards__container--card");
+    card.innerHTML = `
+        <div class="cards__container--card__img">
+          <img src="${item.imgSrc}" alt="" />
           <div class="cards__container--card__img--btn">
-            <button class="view__btn">View</button>
+            <button data-id="${item.id}" class="view__btn">View</button>
           </div>
         </div>
-      </div>
-        `;
+      `;
+    cardsContainer.appendChild(card);
 
-    const viewBtns = document.querySelectorAll(".view__btn");
-    viewBtns &&
-      viewBtns.forEach((btn, index) => {
-        btn.addEventListener("click", () => openModal(data[index]));
-      });
+    const viewBtn = card.querySelector(".view__btn");
+    viewBtn.addEventListener("click", () => {
+      openModal(item);
+    });
   });
-});
+}
