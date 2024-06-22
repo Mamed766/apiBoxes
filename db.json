@@ -3,20 +3,36 @@
     {
       "id": "1",
       "imgSrc": "https://i.pinimg.com/736x/b9/57/24/b9572427ea819b94daf6a86b587d3f28.jpg"
-    },
-    {
-      "id": "2",
-      "imgSrc": "https://www.queensparkhotel.com/blog/wp-content/uploads/2023/02/4-Famous-Streets-In-London-A-First-Timers-Guide.jpg"
-    },
-    {
-      "id": "3",
-      "imgSrc": "https://static.toiimg.com/thumb/84475061/America-name.jpg?width=636&height=358&resize=4"
     }
   ],
   "data2": [
     {
-      "id": "4",
+      "id": "2",
+      "imgSrc": "https://static.toiimg.com/thumb/84475061/America-name.jpg?width=636&height=358&resize=4"
+    }
+  ],
+  "data3": [
+    {
+      "id": "3",
       "imgSrc": "https://www.queensparkhotel.com/blog/wp-content/uploads/2023/02/4-Famous-Streets-In-London-A-First-Timers-Guide.jpg"
+    }
+  ],
+  "data4": [
+    {
+      "id": "4",
+      "imgSrc": "https://www.state.gov/wp-content/uploads/2023/07/shutterstock_667548661v2.jpg"
+    }
+  ],
+  "data5": [
+    {
+      "id": "5",
+      "imgSrc": "https://media.istockphoto.com/id/1283504873/tr/foto%C4%9Fraf/cami-ve-bo%C4%9Faz-k%C3%B6pr%C3%BCs%C3%BC.jpg?s=612x612&w=0&k=20&c=mGX0AaHB8Pl-jQG2ZUWt2ilFwIbSIg2DLFym2eo_PeE="
+    }
+  ],
+  "data6": [
+    {
+      "id": "6",
+      "imgSrc": "https://www.flydubai.com/en/media/baku_tcm8-6178.jpg"
     }
   ]
 }

@@ -45,6 +45,22 @@ getApiWithCb("data2", (data2) => {
   bindCardsData(data2);
 });
 
+getApiWithCb("data3", (data3) => {
+  bindCardsData(data3);
+});
+
+getApiWithCb("data4", (data4) => {
+  bindCardsData(data4);
+});
+
+getApiWithCb("data5", (data5) => {
+  bindCardsData(data5);
+});
+
+getApiWithCb("data6", (data6) => {
+  bindCardsData(data6);
+});
+
 function bindCardsData(data) {
   data.forEach((item) => {
     const card = document.createElement("div");
