@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "imgSrc": "https://i.pinimg.com/736x/b9/57/24/b9572427ea819b94daf6a86b587d3f28.jpg"
+    },
+    {
+      "id": "2",
+      "imgSrc": "https://www.queensparkhotel.com/blog/wp-content/uploads/2023/02/4-Famous-Streets-In-London-A-First-Timers-Guide.jpg"
+    },
+    {
+      "id": "3",
+      "imgSrc": "https://static.toiimg.com/thumb/84475061/America-name.jpg?width=636&height=358&resize=4"
+    }
+  ],
+  "data2": [
+    {
+      "id": "4",
+      "imgSrc": "https://www.queensparkhotel.com/blog/wp-content/uploads/2023/02/4-Famous-Streets-In-London-A-First-Timers-Guide.jpg"
+    }
+  ]
+}
